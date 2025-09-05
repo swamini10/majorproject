@@ -5,3 +5,7 @@ MODEL :Listing
 -price {Number}
 -loction {String}
 -country {String}
+
+#index route 
+Get /listings -> all listings
+Get /listing/:id (show) ->speific listing data (view)

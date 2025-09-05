@@ -6,8 +6,7 @@ Object.defineProperty(exports, "__esModule", {
 exports.default = awaitify;
 // conditionally promisify a function.
 // only return a promise if a callback is omitted
-function awaitify(asyncFn, arity) {
-    if (!arity) arity = asyncFn.length;
+function awaitify(asyncFn, arity = asyncFn.length) {
     if (!arity) throw new Error('arity is undefined');
     function awaitable(...args) {
         if (typeof args[arity - 1] === 'function') {
@@ -25,4 +24,4 @@ function awaitify(asyncFn, arity) {
 
     return awaitable;
 }
-module.exports = exports.default;
+module.exports = exports['default'];

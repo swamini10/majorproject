@@ -62,5 +62,7 @@ module.exports = function modelNamesFromRefPath(refPath, doc, populatedPath, mod
     modelNames = Array.isArray(refValue) ? refValue : [refValue];
   }
 
+  modelNames = utils.array.flatten(modelNames);
+
   return modelNames;
 };
