@@ -14,3 +14,39 @@
 .nav-link{
     color: #222222 !important; /* to override the default color of the link */
 }
+
+/* footer  */
+.f-info-links a{
+    text-decoration: none;
+    color: #222222;
+}
+
+.f-info-links ,
+.f-info-brand,
+.f-info-socials {
+    width: 100%;
+    vertical-align: middle;
+    display: flex;;
+    align-items: center;
+    justify-content: center;
+}
+
+.f-info-links a:hover{
+    text-decoration: underline;
+}
+
+
+.f-info-socials i { 
+    font-size: 1.2rem;
+    margin-right: 1rem;
+}
+
+.f-info{
+    text-align: center;
+    height: 8rem;
+    background-color: #ebebeb;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: space-evenly;
+}
