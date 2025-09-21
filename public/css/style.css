@@ -50,3 +50,22 @@
     justify-content: center;
     align-items: space-evenly;
 }
+
+/* cards */
+.card{
+    border :none !important;
+    marhin-bottom: 2rem;
+}
+
+.caed-img-top{
+    border-radius: 1rem !important;
+    width: 100% !important;
+    object-fit: cover !important;
+}
+.card-body{
+    padding: 0 !important;
+}
+
+.card-title p{
+    font-weight: 400 !important;
+}
