@@ -6,11 +6,17 @@
     </form> -->
     <div class="row row-cols-lg-3 row-cols-md-2 ow-cols-sm-1">
        <% for(let listing of allListings) { %>
-  <div class="card col" style="width: 20rem;">
-    <img src="<% listing.image %>" class="card-img-top" alt="listing image">
+        <a href="/listings/<%= listing._id %>" class="listing-link">
+  <div class="card col">
+
+    <img src="<% listing.image %>" class="card-img-top" 
+    alt="listing image"
+     style="height: 20rem"/>
+     <div class="card-img-overlay">swamini</div>
+      
     <div class="card-body">
       <p class="card-text">
-         <%= listing.title %> <br>
+        <b> <%= listing.title %> </b> <br>
           <%= listing.price.toLocaleString("en-IN") %> / night
       </p>
     </div>

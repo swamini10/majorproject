@@ -1,6 +1,6 @@
-/* body{
-    background-color: pink;
-} */
+body{
+    font-family: "Plus Jakarta Sans", sans-serif !important;
+}
 
 /* navbar  */
 .navbar{
@@ -69,3 +69,14 @@
 .card-title p{
     font-weight: 400 !important;
 }
+.listing-link{
+    text-decoration:nono;
+} 
+    /* card effects */
+    .card-img-overlay{
+        opacity: 0;
+    }
+     .card-img-overlay:hover{
+        opacity: 0.2;
+        background-color: white;
+     }
