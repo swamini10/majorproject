@@ -6,20 +6,14 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/swamini10/majorproject.git"
-  },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/swamini10/majorproject/issues"
-  },
-  "homepage": "https://github.com/swamini10/majorproject#readme",
   "dependencies": {
-    "ejs": "^3.1.10",
-    "express": "^5.1.0",
-    "mongoose": "^8.18.0"
+    "ejs": "^3.1.9",
+    "ejs-mate": "^4.0.0",
+    "express": "^4.18.2",
+    "method-override": "^3.0.0",
+    "mongoose": "^7.5.2"
   }
 }
